@@ -1,0 +1,103 @@
+html {
+	background-color: #070815;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#boxAlert {
+    background-color: darkblue;
+    text-align: center;
+    width: 100vw;
+    height: 5vh;
+}
+
+#textAlert {
+    padding: 12px 0;
+}
+
+#main-content {
+    margin-top: 20vh;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+#myName {
+    font-size: 2.2em;
+}
+
+#sectionTitle {
+    font-weight: bold;
+    margin: 50px 0 0 20px;
+    font-size: 1.3em;
+}
+
+.sectionLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    width: 80vw;
+    height: auto;
+}
+
+.Links-contents {
+    margin: 0 5px;
+}
+
+#linksImg {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 70%);
+    transition: 500ms;
+}
+
+#contactslinksImg {
+    width: 170px;
+    transition: 500ms;
+}
+
+#linksImg:hover {
+    transform: scale(1.05);
+}
+
+#linksName {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#btn-CV {
+    border: 1px solid blue;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    transition: 500ms;
+}
+
+#btn-CV:hover{
+    background-color: blue;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: #343434;
+}
